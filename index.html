@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>RBAC Demo</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <label for="uid">User ID</label>
+    <input type="text" placeholder="User ID" id="uid">
+    <label for="rid">Active Role ID</label>
+    <select name="roles" id="rid"></select>
+    <hr>
+    <div>
+        <p>RBAC Playground</p>
+        <div class="rbac" data-pid="1">
+            <button>required permission 1</button>
+        </div>
+        <div class="rbac" data-pid="2">
+            <button>required permission 2</button>
+        </div>
+        <div class="rbac" data-pid="3">
+            <button>required permission 3</button>
+        </div>
+        <div class="rbac" data-pid="4">
+            <button>required permission 4</button>
+        </div>
+        <div class="rbac" data-pid="5">
+            <button>required permission 5</button>
+        </div>
+        <div class="rbac" data-pid="1">
+            <button>required permission 1</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
